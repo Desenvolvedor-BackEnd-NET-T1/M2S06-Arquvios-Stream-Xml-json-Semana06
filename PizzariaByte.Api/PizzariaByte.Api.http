@@ -1,0 +1,19 @@
+@api = http://localhost:5212
+
+### Aula 3, parte 1: fila em memória (a cozinha é um BackgroundService da própria API)
+POST {{api}}/api/pedidos
+Content-Type: application/json
+
+{
+  "cliente": "Ana",
+  "pizzas": ["Calabresa", "Margherita"]
+}
+
+### Aula 3, parte 2: fila no RabbitMQ (rode também o PizzariaByte.Cozinha)
+POST {{api}}/api/pedidos-rabbit
+Content-Type: application/json
+
+{
+  "cliente": "Bruno",
+  "pizzas": ["Portuguesa"]
+}

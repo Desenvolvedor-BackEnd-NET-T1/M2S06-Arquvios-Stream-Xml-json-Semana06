@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nota numero="5521">
+  <fornecedor>Laticínios Serra Azul</fornecedor>
+  <itens>
+    <item produto="Mussarela" quantidade="10" unidade="kg" />
+    <item produto="Calabresa" quantidade="6" unidade="kg" />
+    <item produto="Molho de tomate" quantidade="12" unidade="lata" />
+    <item produto="Farinha" quantidade="25" unidade="kg" />
+  </itens>
+</nota>
