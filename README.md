@@ -28,16 +28,6 @@ exemplos criam vão para a pasta `dados`. Pelo Visual Studio, ela fica em
 
 Os outros exemplos já estão prontos: rode `dotnet run` sem nome para ver a lista.
 
-## Conta no CloudAMQP (antes da aula 3)
-
-1. Crie uma conta gratuita em cloudamqp.com. Na pergunta sobre a GDPR, responda No.
-2. Create New Instance: nome `pizzaria-byte`, plano Little Lemur (Free), região
-   AWS `sa-east-1` (ou `us-east-1`).
-3. Abra a instância e copie a URL de AMQP details (começa com `amqps://`).
-
-Guarde a URL só para você: ela tem a sua senha. Ela vai no User Secrets dos dois
-projetos, nunca no código:
-
 ```
 cd PizzariaByte.Api
 dotnet user-secrets set "RabbitMQ:Url" "sua-url"
